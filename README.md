@@ -26,3 +26,8 @@ file: /home/brainski/projects/repro-multicache/node_modules/unstorage/drivers/ut
     at CallExpression.bind (node_modules/rollup/dist/es/shared/node-entry.js:2785:23)
     at CallExpression.bind (node_modules/rollup/dist/es/shared/node-entry.js:11986:15)
 ```
+
+## Redis bug
+
+docker-compose up -d
+http://localhost:3000/data
